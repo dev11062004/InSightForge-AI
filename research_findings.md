@@ -1,0 +1,3 @@
+- Adani Realty is one of India's leading real estate developers.
+- The company has a wide range of residential and commercial projects in Ahmedabad, Mumbai, Gurugram, and Pune.
+- Adani Realty is a private entity under Adani Enterprises Ltd.

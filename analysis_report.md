@@ -1,0 +1,3 @@
+- Challenge 1: High competition in the Indian real estate market.
+- Challenge 2: Limited land availability in prime locations.
+- Challenge 3: Rising construction costs and regulatory hurdles.

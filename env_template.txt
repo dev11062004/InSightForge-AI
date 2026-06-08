@@ -1,0 +1,19 @@
+# ── Required API Keys ──────────────────────────────────────────────────────────
+GROQ_API_KEY=your-groq-api-key-here
+SERPER_API_KEY=your-serper-api-key-here
+
+# ── LLM Model Selection ────────────────────────────────────────────────────────
+RESEARCH_AGENT_LLM=groq/llama-3.3-70b-versatile
+ANALYST_AGENT_LLM=groq/llama-3.3-70b-versatile
+AI_STRATEGY_AGENT_LLM=groq/llama-3.3-70b-versatile
+WRITER_AGENT_LLM=groq/llama-3.3-70b-versatile
+
+# ── Temperature Settings (creativity vs precision) ─────────────────────────────
+RESEARCH_AGENT_TEMPERATURE=0.1
+ANALYST_AGENT_TEMPERATURE=0.2
+AI_STRATEGY_AGENT_TEMPERATURE=0.3
+WRITER_AGENT_TEMPERATURE=0.4
+
+# ── How to get your API keys ───────────────────────────────────────────────────
+# GROQ_API_KEY   : https://console.groq.com/keys
+# SERPER_API_KEY : https://serper.dev/api-key
