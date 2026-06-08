@@ -1,4 +1,4 @@
-# 🚀 InsightForge AI
+# InsightForge AI
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
@@ -13,7 +13,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 **InsightForge AI** is a production-grade, multi-agent artificial intelligence system designed to automate deep corporate research, competitive analysis, and strategic consulting. By leveraging a sequential pipeline of specialized AI agents, the platform ingests a target company's name and autonomously synthesizes public data into actionable business intelligence, culminating in executive-ready markdown and PDF reports.
 
@@ -22,7 +22,7 @@
 
 ---
 
-## 🎯 Why This Project Matters (Business Value)
+## Why This Project Matters (Business Value)
 
 In the traditional management consulting workflow, gathering corporate intelligence, structuring competitive analysis, and proposing viable AI transformation strategies takes a team of analysts days or weeks. 
 
@@ -30,7 +30,7 @@ InsightForge AI reduces this latency to **minutes** without sacrificing depth. B
 
 ---
 
-## 👁️ What Recruiters & Hiring Managers Should Notice
+## What Recruiters & Hiring Managers Should Notice
 
 This project was built to demonstrate readiness for production-level AI and Software Engineering roles. Key technical signals include:
 
@@ -42,7 +42,7 @@ This project was built to demonstrate readiness for production-level AI and Soft
 
 ---
 
-## 🏗️ Architecture & System Design
+## Architecture & System Design
 
 InsightForge AI relies on a highly decoupled architecture where specialized agents only receive the exact context they need, preventing the "lost in the middle" phenomenon and massive token costs.
 
@@ -101,7 +101,7 @@ sequenceDiagram
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **Autonomous Web Research:** Uses Serper API to scrape real-time company news, financials, and competitor data.
 - **Sequential Multi-Agent Pipeline:** 4 distinct AI personas passing structured context down the chain.
@@ -113,7 +113,7 @@ sequenceDiagram
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Core Application:** Python 3.10+
 * **Frontend:** Streamlit
@@ -124,7 +124,7 @@ sequenceDiagram
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 * Python 3.10 or higher
@@ -165,7 +165,7 @@ streamlit run app.py
 
 ---
 
-## 💻 Usage Guide & Sample Workflow
+## Usage Guide & Sample Workflow
 
 1. **Launch the UI:** Open `http://localhost:8501`.
 2. **Input Company:** Enter a target company (e.g., "NVIDIA", "Stripe", or use quick-select options).
@@ -178,7 +178,7 @@ streamlit run app.py
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```text
 InSightForge-AI/
@@ -203,7 +203,7 @@ InSightForge-AI/
 
 ---
 
-## 🧠 Engineering Decisions & Challenges Solved
+## Engineering Decisions & Challenges Solved
 
 ### 1. Defeating Token Bloat & Rate Limits
 **Challenge:** Initially, the sequential pipeline appended every agent's output into a massive shared context window. By the final writer agent, the prompt exceeded 10k tokens, triggering Groq's 12k TPM rate limits and crashing the app.
@@ -221,7 +221,7 @@ InSightForge-AI/
 
 ---
 
-## 📈 Performance & Scalability Notes
+## Performance & Scalability Notes
 
 - **Optimized Latency:** The entire 4-agent pipeline executes in under 2 minutes in production mode.
 - **Test Mode:** Built a `TEST_MODE` toggle that shrinks outputs to 60 words and 1 iteration. This allows for instant CI/CD pipeline verification and UI testing without burning production API quotas.
@@ -229,7 +229,7 @@ InSightForge-AI/
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 1. **Vector Database Integration:** Integrate Pinecone or ChromaDB to give agents "memory" of past company analyses.
 2. **Human-in-the-Loop (HITL):** Allow users to intervene and correct the Analyst's assumptions before the Strategist begins its work.
@@ -237,7 +237,7 @@ InSightForge-AI/
 
 ---
 
-## 🏆 Learning Outcomes
+## Learning Outcomes
 
 Building InsightForge AI provided deep, hands-on experience in:
 - Designing non-trivial Agentic Workflows.
