@@ -17,9 +17,6 @@
 
 **InsightForge AI** is a production-grade, multi-agent artificial intelligence system designed to automate deep corporate research, competitive analysis, and strategic consulting. By leveraging a sequential pipeline of specialized AI agents, the platform ingests a target company's name and autonomously synthesizes public data into actionable business intelligence, culminating in executive-ready markdown and PDF reports.
 
-*(Insert UI Hero Image / Banner Here)*
-![InsightForge AI Dashboard](placeholder_banner.png)
-
 ---
 
 ## Why This Project Matters (Business Value)
